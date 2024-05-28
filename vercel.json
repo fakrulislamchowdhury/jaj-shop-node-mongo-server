@@ -13,5 +13,5 @@
         "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
       }
     ],
-    "rewrites": [{ "source": "/services/(.*)", "destination": "/services" }]
+    "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
   }
